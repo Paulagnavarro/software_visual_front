@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c3e50;
+    padding: 10px 0;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    text-align: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    background-color: #34495e;
+  }
+  
+  /* Layout de páginas */
+  .container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Formulários */
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  input[type="number"],
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="date"]:focus,
+  input[type="number"]:focus,
+  input[type="text"]:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo do título */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Cesta de Compras */
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cart-item p {
+    font-size: 1rem;
+  }
+  
+  /* Perfil */
+  .profile-info {
+    margin-bottom: 20px;
+  }
+  
+  .profile-info p {
+    margin: 8px 0;
+    font-size: 1rem;
+  }
+  
+  .profile-info button {
+    margin-top: 10px;
+  }
+  
